@@ -1,0 +1,688 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent-1{
+    width: 100%;
+    height: 85vh;
+    background-color: aqua;
+    background-image: url(https://vinova-furstore.myshopify.com/cdn/shop/files/s-2-1_2048x.png?v=1696319878);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p1-gard-1{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.p1-p{
+    font-size: 19px;
+    font-family: var(--font-family-default)
+}
+.btn3{
+    width: 200px;
+    height: 60px;
+    background-color: #E3C3AA;
+    font-size: 16px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+ }
+.btn3:hover{
+    background-color: #092E20;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.5s;
+}
+.h1{
+    font-family: var(--font-family-default);
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 45px;
+    letter-spacing: .5px;
+}
+.nav{
+    width: 100%;
+    height: 70px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E3C3AA;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+.menu li{
+    list-style-type: none;
+}
+.logo{
+    height: 40px;
+    padding: 90px;
+}
+.menu{
+    display: none;
+    width: 750px;
+    font-size: 17px;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.icons{
+    width: 200px;
+    padding: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: x-large;
+}
+.welcome{
+    width: 100%;
+    height: 25vh;
+    color: black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+.welcome-img{
+    width: 250px;
+    height: 50px;
+    bottom: 10px;
+ }
+.p-welcome{
+    width: 100%;
+    height: 20vh;
+}
+.p1-welcome{
+    width: 100%;
+    height: 10vh;
+    font-family: var(--font-family-default);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: .5px;
+}
+.fur-images{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.a-img{
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.img-1{
+    width: 80%;
+    height: 70vh;
+}
+.p-img{
+    position: absolute;
+    opacity: 1;
+    font-size: 25px;
+    color: #FFFFFF;
+    bottom: 17%;
+    left: 70px;
+}
+.demo{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    bottom: 15%;
+    right: 70px;
+}
+.demo:hover{
+    background-color: #E3C3AA;
+}
+.h3{
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: normal;
+    font-family: "PT Sans", sans-serif;
+    top: 25%;
+ }
+.grid{
+    width: 80%;
+    height: 100%; 
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+ }
+ .New-Collection{
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+     position: relative;
+ }
+ .New-Collection img{
+     width: 100%;
+     height: 80%;
+ }
+ .img-4{
+     width: 100%;
+     height: 80%;
+ }
+ .img-5{
+     width: 100%;
+     height: 80%;
+     position: absolute;
+}
+.New-Collection:hover .img-5{
+    transition: 0.5s;
+    transition-timing-function: linear;
+    transition-behavior: normal;
+    opacity: 0;
+}
+ .del{
+     color: #D5D4D4;
+     text-decoration: line-through #DB422A;
+ }
+ .btn{
+     width: 85%;
+     height: 50px;
+     color: white;
+     border: none;
+     position: absolute;
+     bottom: 25%;
+     left: 5%;
+     display: none;
+ }
+ .New-Collection:hover .btn{
+    background-color: #092E20;
+     display: block;
+ }
+ .btn2{
+     width: 20%;
+     height: 20px;
+     background-color: #DB422A;
+     color: white;
+     border: none;
+     position: absolute;
+     bottom: 90%;
+     left: 20px;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+     border-bottom-right-radius: 5px;
+ }
+.NewModern{
+    width: 100%;
+    height: 80vh;
+    background-image: url(https://vinova-furstore.myshopify.com/cdn/shop/files/img-2-6_2048x.png?v=1696388285);
+}
+.newmo{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.p-nm{
+    font-size: 23px;
+    font-family: "Dancing Script", cursive;
+    text-align: justify;
+}
+.nm-p{
+    width: 25%;
+    height: 5vh;
+}
+.p-os{
+    font-size: 30px;
+}
+.p-lorem{
+    font-size: 15px;
+}
+.Test{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+.p-test{
+    width: 200px;
+    height: 50px;
+    font-size: 40px;
+    font-family: var(--font-family-default);
+}
+.lorem-t{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+.lorem{
+    font-family: var(--font-family-default);
+    font-size: 15px;
+    text-align: center;
+}
+.name{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+.name-p{
+    font-size: 18px;
+}
+.span{
+    color: #778183;
+    font-size: 18px;
+}
+.name-img{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p1-bs{
+    width: 100%;
+    height: 90vh;
+    background-color: #E3C3AA;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.p2-bs{
+    width: 25%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.h2-bs{
+    width: 90%;
+    height: 35%;
+    font-size: 38px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: end;
+}
+.para-bs{
+    font-size: 15px;
+    letter-spacing: 0.3px;
+}
+.btn-bs1{
+    width: 200px;
+    height: 50px;
+}
+.p2-bs:hover .btn-bs1{
+    background-color: #092E20;
+    color: white;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.5s;
+}
+.p3-bs{
+    width: 20%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    position: relative;
+}
+.img1-bs{
+    width: 100%;
+    height: 45vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.img2-bs{
+    width: 100%;
+    height: 45vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.p3-bs:hover .img2-bs{
+    transition: 0.5s;
+    transition-timing-function: linear;
+    transition-behavior: normal;
+    opacity: 0;
+    transition-delay: 0s;
+}
+.btn-bs{
+    width: 85%;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border: none;
+    position: absolute;
+    bottom: 22%;
+    left: 7%;
+    display: none;
+}
+.btn-bs:hover{
+    background-color: #092E20;
+    color: white;
+}
+.p3-bs:hover .btn-bs{
+    display: block;
+}
+.p{
+    color: black;
+}
+.p:hover{
+    color: #E3C3AA;
+}
+.p4-bs{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.Fur{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.store{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;align-items: center;
+    gap: 8px;
+}
+.p-store{
+    font-size: 18px;
+}
+.store:hover .img-store{
+    transform: translateX(10px);
+    transform: translateX(-10px);
+    transition: 0.5s;
+}
+.ln{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h-ln{
+    font-size: 35px;
+    text-align: center;
+    font-family: "Ubuntu Sans", sans-serif;
+}
+.ln-parent{
+    width: 90%;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 55px;
+}
+.ln-img{
+    width: 50%;
+    height: 60vh;
+}
+.img-ln{
+    width: 300px;
+    height: 300px;
+
+}
+.ln-img:hover .img-ln{
+    transition: 0.9s;
+    transform: scale(1.1);
+}
+.a-ln{
+    text-decoration: none;
+    color: black;
+}
+.a-ln:hover{
+    color: #E3C3AA;
+}
+.para-ln{
+    width: 300px;
+    height: 85px;
+    gap: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.p-ln{
+    color: #798182;
+}
+.ln-p{
+    color: #212021;
+}
+.a-ln{
+    color: #212021;
+}
+.footer{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+     justify-content: space-between;
+    align-items: center; 
+}
+.fur-img{
+    /* width: 270px;
+    height: 200px;
+    background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+}
+.img-fur{
+    width: 250px;
+    height: 50px;
+    font-size: 17px;
+}
+.icons-f{
+    width: 30px;
+    height: 150px;
+    color: #778183;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.details-f{
+    width: 220px;
+    height: 150px;
+    font-size: 17px;
+    color: #778183;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.footer-details{
+    display: flex;
+}
+.abt-us{
+    width: 200px;
+    height: 200px;
+}
+.us{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+.us-d{
+    width: 180px;
+    height: 120px;
+    color: #778183;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.us-d a{
+    text-decoration: none;
+}
+.cus-ser{
+    width: 200px;
+    height: 170px;
+}
+.cus{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+.cus-d{
+    width: 180px;
+    height: 120px;
+    color: #778183;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.cus-d a{
+    text-decoration: none;
+}
+.help{
+    width: 200px;
+    height: 170px;
+}
+.help1{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+.help-d{
+    width: 180px;
+    height: 120px;
+    color: #778183;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.help-d a{
+    text-decoration: none;
+}
+.support{
+    width: 200px;
+    height: 170px;
+}
+.support1{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+.support-d{
+    width: 180px;
+    height: 120px;
+    color: #778183;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.support-d a{
+    text-decoration: none;
+}
+.footer-last{
+    width: 200px;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.payments{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+.follow{
+    width: 150px;
+    height: 40px;
+    /* background-color: tomato; */
+    font-size: 20px;
+}
+.f-icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width:1200px){
+   .menu{
+    display: none;
+   }
+   .icons{
+    gap: 30px;
+    width: 20%;
+    height: 100%;
+   }
+   .p1-gard-1{
+    width: 100%;
+    height: 20vh;
+    gap: 20px;
+   }
+   .parent-1{
+    width: 100%;
+    height: 35vh;
+    background-size: cover;
+    gap: 20px;
+   }
+   .p1-p{
+    height: 5vh;
+    display: flex;
+    align-items: center;
+   }
+   .welcome{
+    width: 100%;
+    height: 13vh;
+    justify-content:center;
+    align-items: center;
+   }
+   .welcome-img{
+    width: 18%;
+    height: 25%;
+   }
+   .p1-welcome{
+    width: 100%;
+    height: 5vh;
+    font-size: 17px;
+   }
+   .fur-images{
+    width: 100%;
+    height: 30vh;
+   }
+   .a-img{
+    width: 50%;
+    height: 30%;
+   }
+}
